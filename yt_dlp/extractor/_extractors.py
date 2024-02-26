@@ -24,6 +24,10 @@ from .youtube import (  # Youtube is moved to the top to improve performance
     YoutubeConsentRedirectIE,
 )
 
+from .xiaoxintv import (
+  XiaoxintvIE
+)
+
 from .abc import (
     ABCIE,
     ABCIViewIE,
